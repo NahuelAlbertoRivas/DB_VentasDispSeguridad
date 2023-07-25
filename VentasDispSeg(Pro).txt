@@ -1,0 +1,99 @@
+Venta
+	Fecha
+	Dirección
+	Producto
+	Cantidad
+	Valor absoluto
+	Dto.
+	Valor final
+
+Vendedor
+	Nombre
+	Apellido
+
+
+Cliente
+	Nombre/Razón Social
+	Apellido
+	Información del cliente
+
+Información del cliente
+	Clasificación de persona
+	CUIT/CUIL
+	Condición IVA
+	Detalle IIBB
+	Estado cliente  BOOLEAN
+	Celular/teléfono fijo
+	Correo
+	Alto riesgo
+	Mascotas
+	Permanencia
+	
+
+Clasificación de persona
+	Física
+	Jurídica	
+
+Condición de IVA
+
+
+Condición de IIBB
+
+
+
+
+
+Condición IVA
+	Resp. inscripto
+	Monotributo
+	Exento
+	Consumidor final
+	No responsable
+
+Detalle IIBB 
+	Condición IIBB
+	Nº
+
+Condición IIBB
+	Inscripto
+	No inscripto
+	Exento
+
+Tipo de propiedad
+	Depto.
+	Casa
+	Oficina
+	Comercio
+	Pyme
+
+
+Domicilio de facturación
+	Calle
+	Nº
+	Piso
+	Depto.
+	CPA
+	Localidad
+	Provincia
+	País
+
+
+Domicilio de instalación
+	Calle
+	Nº
+	Piso
+	Depto.
+	CPA
+	Localidad
+	Provincia
+
+
+Producto
+	Nombre  VARCHAR (50)
+	Precio unitario   FLOAT
+
+Servicios adicionales
+	AssistNow
+	Service
+
+
